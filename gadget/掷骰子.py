@@ -1,6 +1,5 @@
 from random import randint
 
-# 掷骰子
 face = randint(1, 6)
 if face == 1:
     result = '唱首歌'

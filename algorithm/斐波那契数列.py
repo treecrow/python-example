@@ -20,3 +20,12 @@
 #             return a
 # for j in range(20):
 #     print(fib_loop(j), end=' ')
+
+# 生成器
+# def fib_loop(n):
+#     a, b = 0, 1
+#     for _ in range(n):
+#         a, b = b, a + b
+#         yield a
+# for val in fib_loop(20):
+#     print(val)
