@@ -8,3 +8,4 @@
 | ------------------------------- | -------------------- |
 | [algorithm](./gadget/README.md) | 收集各种算法小脚本   |
 | [gadget](./gadget/README.md)    | 收集各种有趣的小脚本 |
+| [spider](./spider/README.md)    | 收集各种爬虫         |
