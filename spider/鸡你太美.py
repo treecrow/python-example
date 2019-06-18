@@ -5,7 +5,8 @@ from selenium.webdriver.common.by import By
 
 from bs4 import BeautifulSoup
 
-browser = webdriver.Chrome()
+# browser = webdriver.Chrome()
+browser = webdriver.PhantomJS()
 browser.get("https://www.bilibili.com/")
 
 WAIT = WebDriverWait(browser, 10)
